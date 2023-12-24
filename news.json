@@ -2,7 +2,9 @@
     "Module1": {
         "Event": "JOYEUX NÖEL",
         "News": {
-            "1": "Pas de news!!!\nBonjour je suis le gros pere noël"
+            "1": "Pas de news!!!\nBonjour je suis le gros pere noël",
+            "2": "J'aime les gros chat",
+            "3": "j'ai plus d'inspi"
         }
     }
 }
