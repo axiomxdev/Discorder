@@ -3,15 +3,15 @@
         "Event": "JOYEUX NÖEL",
         "News": {
             "1": {
-                "1":"C'est le pere noel",
+                "1":{"C'est le pere noel","green"}
                 "2":"Pas de news!!!\nBonjour je suis le gros pere noël",
             },
             "2":  {
-                "1":"Les chat ?!",
+                "1":{"Les chat ?!","red"}
                 "2":"Axiom a un gros chat tout roux et paindemi un gros chat tout noir a moitié esclave de la technologie",
             },
             "3": {
-                "1":"Le Trésor des Étoiles",
+                "1":{"Le Trésor des Étoiles","blue"},
                 "2":"Chapitre 1: L’Étrange Carte\n\nDans un petit village niché au creux des montagnes, vivait un jeune garçon nommé Émile. Un jour, alors qu’il explorait la vieille bibliothèque du village, il découvrit une étrange carte. Les étoiles y étaient dessinées avec une précision déconcertante, et au centre, une constellation inconnue brillait d’un éclat mystérieux.",
                 "3":"Chapitre 2: La Quête Céleste\n\nÉmile décida de suivre la carte. Guidé par les étoiles, il grimpa les sommets enneigés, traversa des forêts enchantées et affronta des créatures fantastiques. À chaque étape, il collectait des fragments de lumière, convaincu qu’ils le mèneraient au trésor légendaire caché dans les cieux.",
                 "4":"Chapitre 3: L’Étoile du Destin\n\nArrivé au sommet de la plus haute montagne, Émile leva les yeux vers le ciel. Là, au cœur de la constellation mystérieuse, brillait une étoile unique. Il tendit la main et toucha sa lumière. Soudain, tout devint clair. L’étoile était le reflet de son propre cœur, et le trésor qu’il cherchait était l’amour et la sagesse qu’il avait accumulés tout au long de son voyage.\nEt ainsi, Émile comprit que le véritable trésor se trouvait en lui, dans son courage, sa persévérance et sa capacité à rêver. Il redescendit de la montagne, portant dans son cœur la plus précieuse des étoiles, prêt à partager sa lumière avec le monde entier."
