@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Cahier des charges</title>
+
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #001f3f; /* Fond bleu marine */
+            color: #ffffff; /* Texte blanc */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff; /* Texte blanc */
+        }
+
+        ul, ol {
+            margin-bottom: 10px;
+        }
+
+        pre {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 10px;
+            overflow: auto;
+        }
+
+        code {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 12px;
+            background-color: #f8f8f8;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #808080; /* Liens hypertextes gris */
+            text-decoration: underline;
+        }
+
+        strong {
+            color: #808080; /* Texte en gras gris */
+        } 
+    </style>
+    
+</head>
+<body>
+<h1 id="cahier-des-charges-discorder">Cahier des charges Discorder</h1>
+<h2 id="presentation-du-projet">Présentation du Projet :</h2>
+<ul>
+<li><strong>Nom :</strong> Discorder</li>
+<li><strong>Description :</strong> Nouveau Discord offrant de nombreuses fonctionnalités indisponibles actuellement.</li>
+<li><strong>Objectif :</strong> Faciliter l'utilisation contournant certaines restrictions.</li>
+<li><strong>Fonctionnalités :</strong> Divers moyens d'interaction avec Discord.</li>
+<li><strong>Public cible :</strong> Utilisateurs quotidiens de Discord.</li>
+<li><strong>Avantages :</strong> Semi-gratuit, sécurisé, facile à utiliser, facilité de création de scripts (plugins, self-bot, bot Discord).</li>
+</ul>
+<h2 id="planification-du-projet">Planification du Projet :</h2>
+<h3 id="interface-style"><a name="interface"></a>Interface Style :</h3>
+<ul>
+<li>Design dans le style de Discord.</li>
+<li>Utilisation de couleurs contrastées et de polices lisibles.</li>
+<li>Adaptation aux différents formats d'écran (responsive).</li>
+</ul>
+<h3 id="interface-modules">Interface Modules :</h3>
+<h4 id="les-modules-doivent-etre-a-la-place-des-serveurs-dans-lapplication-discord">Les modules doivent être à la place des serveurs dans l'application Discord.</h4>
+<h4 id="1er-module"><a name="m1"></a><strong>1er module :</strong></h4>
+<ul>
+<li>Page de présentation avec les actualités du projet et des conseils d'utilisation.</li>
+</ul>
+<h4 id="2e-module"><a name="m2"></a><strong>2e module :</strong></h4>
+<ul>
+<li>Une réplique de l'interface de base de Discord (avec ajout d'une fonction pour dupliquer cette interface pour plusieurs comptes, par exemple 10).</li>
+</ul>
+<h4 id="3e-module"><a name="m3"></a><strong>3e module :</strong></h4>
+<ul>
+<li>Ajout d'un menu pour les fonctionnalités avec l'API classique (voir le début de <strong><a href="#fonctionnalite">Fonctionnalités</a></strong>).</li>
+<li>Ajout d'une option pour choisir sur quel compte exécuter les scripts.</li>
+</ul>
+<h4 id="4e-module"><a name="m4"></a><strong>4e module :</strong></h4>
+<ul>
+<li>d'une sorte de marché gratuit de plugins pour les utilisateurs.</li>
+<li>Activation et désactivation des plugins.</li>
+<li>Documentation pour la création de plugins.</li>
+</ul>
+<h4 id="5e-module"><a name="m5"></a><strong>5e module :</strong></h4>
+<ul>
+<li>Création de self-bots avec 3 modes :<ul>
+<li>Mode 1 : Self-bot préfait avec simplement des cases à cocher.</li>
+<li>Mode 2 : Self-bot à construire avec des blocs de code, un peu comme Scratch.</li>
+<li>Mode 3 : Liste des fonctions prêtes avec l'API.</li>
+</ul>
+</li>
+<li>Un sous-module pour les modes 1 et 2 avec la possibilité de lancer le self-bot sur plusieurs comptes Discord si nécessaire.</li>
+<li>Un sous-module pour le mode 3 demandant l'emplacement du fichier du self-bot sur plusieurs comptes Discord si nécessaire.</li>
+</ul>
+<h4 id="6e-module"><a name="m6"></a><strong>6e module :</strong></h4>
+<ul>
+<li>Création de bots Discord en Python avec 3 modes :<ul>
+<li>Mode 1 : Bot Discord préfait avec simplement des cases à cocher.</li>
+<li>Mode 2 : Bot Discord à construire avec des blocs de code, un peu comme Scratch.</li>
+<li>Mode 3 : Liste des fonctions prêtes avec l'API.</li>
+</ul>
+</li>
+<li>Un sous-module pour les modes 1 et 2 avec la possibilité de lancer le bot Discord.</li>
+<li>Un sous-module pour le mode 3 demandant l'emplacement du fichier du bot Discord en question.</li>
+</ul>
+<h4 id="7e-module-interface"><a name="m7"></a><strong>7e module :</strong> Interface</h4>
+<ul>
+<li>Sous-module permettant d'activer les thèmes.</li>
+<li>Création de thèmes.</li>
+<li>Importation de thèmes grâce à un marché.</li>
+</ul>
+<h4 id="8e-module-parametres"><a name="m8"></a><strong>8e module :</strong> Paramètres</h4>
+<ul>
+<li>Activation des modules + avertissement des risques de bugs.</li>
+</ul>
+<h3 id="fonctionnalites"><a name="fonctionnalite"></a>Fonctionnalités :</h3>
+<ul>
+<li>Obtenir les informations d'une ID avec l'API Discord.</li>
+<li>Obtenir les informations d'un token avec l'API Discord.</li>
+<li>Obtenir ses propres informations avec l'API Discord.</li>
+<li>Obtenir les informations d'une guilde avec l'API Discord.</li>
+<li>Obtenir ses propres informations de paiement avec l'API Discord.</li>
+<li>Obtenir les informations de paiement d'un token avec l'API Discord.</li>
+<li>Supprimer des messages avec l'API Discord.</li>
+<li>Envoyer des messages directs à un serveur grâce à une ID de guilde.</li>
+<li>Effectuer des spams dans un canal.</li>
+<li>Effectuer un spam complet sur un serveur.</li>
+<li>Pouvoir voir les messages supprimés.</li>
+<li>Avoir plusieurs comptes Discord simultanément depuis le client.</li>
+<li>Modifier l'interface du client sans connaissance de code.</li>
+<li>Créer ses propres self-bots sans connaissance de code.</li>
+<li>Créer un langage spécifique à la création de self-bots.</li>
+<li>Créer ses propres bots Discord sans connaissance de code.</li>
+<li>Créer ses propres plugins.</li>
+<li>Créer un langage spécifique à la création de plugins.</li>
+</ul>
+<h2 id="api-du-projet">API du Projet :</h2>
+<h2 id="taches">Tâches :</h2>
+<ul>
+<li><strong><a href="#paindemie">Paindemie</a>:</strong> Associé au <strong><a href="#m6">6e Module</a></strong>.</li>
+<li><strong><a href="#axiom">Axiom</a>:</strong> Associé à l'<strong><a href="#interface">Interface</a></strong>.</li>
+</ul>
+<h2 id="paindemie"><a name="paindemie"></a>Paindemie</h2>
+<ul>
+<li><strong><a href="#m6">6e Module</a></strong></li>
+</ul>
+<h2 id="axiom"><a name="axiom"></a>Axiom</h2>
+<ul>
+<li><strong><a href="#interface">Interface</a></strong></li>
+</ul>
+</body>
+</html>
